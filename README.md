@@ -7,41 +7,43 @@ Dataset
 The dataset used in this project is sourced from Kaggle:  
  **[Fraudulent E-Commerce Transactions Dataset](https://www.kaggle.com/datasets/shriyashjagtap/fraudulent-e-commerce-transactions/data)**  
 
-## 🛠️ Installation & Setup  
+## Installation & Setup  
 To run this project locally, follow these steps:  
 
-#1️⃣ Clone the Repository**  
+#1️ Clone the Repository**  
 bash
 git clone https://github.com/Lokesh-Murugesh/Fraud-Detection.git
 cd fraud-detection-ml
-2️⃣ Install Dependencies
+2️ Install Dependencies
 bash
 pip install -r requirements.txt
-3️⃣ Run the Jupyter Notebook
+3️ Run the Jupyter Notebook
 jupyter notebook
 # Open Fraud_Detection.ipynb and execute cells
-🔍 Exploratory Data Analysis (EDA)
+ Exploratory Data Analysis (EDA)
 Key fraud patterns identified:
-📊 Class Imbalance: Fraud cases are significantly lower than non-fraud cases
-💳 Transaction Amount: Higher-value transactions have a higher fraud probability
-🕒 Fraud by Time: Certain hours of the day have higher fraud occurrences
-📌 Fraud by Payment Method: Credit cards show a higher fraud rate
+ -Class Imbalance: Fraud cases are significantly lower than non-fraud cases
+ -Transaction Amount: Higher-value transactions have a higher fraud probability
+ -Fraud by Time: Certain hours of the day have higher fraud occurrences
+ -Fraud by Payment Method: Credit cards show a higher fraud rate
 
-🏆 Model Training, Evaluation & Hyperparameter Tuning
-1️⃣ Models Implemented
+ Model Training, Evaluation & Hyperparameter Tuning
+1️ Models Implemented
 Logistic Regression
 Decision Tree
 Random Forest
-2️⃣ Model Evaluation
+2️ Model Evaluation
 Each model is evaluated based on Precision, Recall, F1-score, and ROC-AUC curves.
 
 Model	Precision	Recall	F1 Score	ROC-AUC
 Logistic Regression	0.96	0.12	0.21	0.559
 Decision Tree	0.92	0.27	0.41	0.611
 Random Forest	0.94	0.15	0.26	0.574
-🔹 Conclusion: Random Forest balances fraud detection with minimal false positives.
+![image](https://github.com/user-attachments/assets/15d5b2d4-1046-47c9-b88c-b9e1b6adc944)
 
-3️⃣ Hyperparameter Tuning (GridSearchCV)
+Conclusion: Random Forest balances fraud detection with minimal false positives.
+
+3️ Hyperparameter Tuning (GridSearchCV)
 The Random Forest model was optimized using GridSearchCV with:
 
 Best Parameters Selected:
