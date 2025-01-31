@@ -35,11 +35,9 @@ Random Forest
 2️ Model Evaluation
 Each model is evaluated based on Precision, Recall, F1-score, and ROC-AUC curves.
 
-Model	Precision	Recall	F1 Score	ROC-AUC
-Logistic Regression	0.96	0.12	0.21	0.559
-Decision Tree	0.92	0.27	0.41	0.611
-Random Forest	0.94	0.15	0.26	0.574
+
 ![image](https://github.com/user-attachments/assets/15d5b2d4-1046-47c9-b88c-b9e1b6adc944)
+
 
 Conclusion: Random Forest balances fraud detection with minimal false positives.
 
